@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460">
+<defs>
+<pattern id="w" width="18" height="22" patternUnits="userSpaceOnUse"><rect x="4" y="5" width="10" height="12" rx="1.5" fill="#9fd0ff"/></pattern>
+<pattern id="w2" width="14" height="18" patternUnits="userSpaceOnUse"><rect x="3" y="4" width="8" height="10" rx="1" fill="#e8f3ff" opacity=".9"/></pattern>
+<pattern id="lat" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 0L12 12M12 0L0 12" stroke="#ffb703" stroke-width="1.6"/></pattern>
+</defs>
+<circle cx="330" cy="240" r="200" fill="#fff" opacity=".07"/>
+<circle cx="330" cy="240" r="140" fill="#fff" opacity=".07"/>
+<g fill="#fff" opacity=".9"><ellipse cx="90" cy="70" rx="42" ry="14"/><ellipse cx="120" cy="58" rx="28" ry="14"/><ellipse cx="560" cy="130" rx="38" ry="12"/><ellipse cx="585" cy="120" rx="22" ry="11"/></g>
+<!-- buildings -->
+<rect x="70" y="250" width="100" height="180" fill="#0f2f8f"/><rect x="70" y="250" width="100" height="180" fill="url(#w)"/>
+<rect x="190" y="150" width="120" height="280" fill="#14146b"/><rect x="190" y="150" width="120" height="280" fill="url(#w)"/>
+<rect x="200" y="136" width="100" height="14" fill="#0b0b4a"/>
+<rect x="320" y="210" width="90" height="220" fill="#1a55c9"/><rect x="320" y="210" width="90" height="220" fill="url(#w2)"/>
+<!-- building under construction -->
+<g fill="none" stroke="#fff" stroke-width="3" opacity=".95"><rect x="425" y="260" width="90" height="170"/><path d="M425 303H515M425 346H515M425 389H515M455 260V430M485 260V430"/></g>
+<!-- crane -->
+<rect x="540" y="70" width="14" height="360" fill="url(#lat)"/><rect x="538" y="70" width="2.5" height="360" fill="#ffb703"/><rect x="553" y="70" width="2.5" height="360" fill="#ffb703"/>
+<rect x="545" y="52" width="2" height="20" fill="#ffb703"/>
+<path d="M350 74H620" stroke="#ffb703" stroke-width="5"/>
+<path d="M350 74L547 52L620 74" fill="none" stroke="#ffb703" stroke-width="2"/>
+<rect x="585" y="74" width="30" height="18" fill="#ffb703"/>
+<rect x="528" y="62" width="38" height="14" rx="2" fill="#fff"/>
+<path d="M395 74V160" stroke="#fff" stroke-width="2"/>
+<rect x="378" y="160" width="34" height="8" fill="#ffb703"/>
+<path d="M382 168L395 160L408 168" fill="none" stroke="#fff" stroke-width="2"/>
+<!-- ground -->
+<rect x="0" y="425" width="640" height="35" fill="#0a1f5c"/>
+<g fill="#2ec4b6"><circle cx="40" cy="418" r="18"/><circle cx="610" cy="420" r="16"/><circle cx="170" cy="424" r="12"/></g>
+<rect x="38" y="418" width="4" height="12" fill="#0a1f5c"/>
+</svg>
